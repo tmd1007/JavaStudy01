@@ -1,3 +1,4 @@
+// 제로베이스 백엔드 10기 전현승
 public class GuGuDan {
     public static void main(String[] args){
         System.out.println("[구구단 출력]");
