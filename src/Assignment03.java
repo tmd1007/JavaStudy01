@@ -1,6 +1,8 @@
+// 제로베이스 백엔드 10기 전현승
+// 과제 3: 입장권 계산
 import java.util.Scanner;
 
-public class Ticket {
+public class Assignment03 {
 
     public static int amount(int age, int time, String merit, String card){
         boolean discount = false;

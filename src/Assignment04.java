@@ -1,7 +1,9 @@
+// 제로베이스 백엔드 10기 전현승
+// 과제 4: 주민등록번호 생성
 import java.util.Random;
 import java.util.Scanner;
 
-public class IDNumber {
+public class Assignment04 {
     public static String number(String year, String month, String day, String sex){
         String idNum;
         String sexNum = sex.equals("m") ? "3" : "4";
@@ -19,7 +21,6 @@ public class IDNumber {
         Scanner sc = new Scanner(System.in);
         String year, month, day;
         String sex;
-
 
         System.out.println("[주민등록번호 계산]");
         System.out.printf("출생년도를 입력해 주세요.(yyyy):");

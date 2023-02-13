@@ -1,9 +1,11 @@
+// 제로베이스 백엔드 10기 전현승
+// 과제 5: 달력 출력
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Calendar {
+public class Assignment05 {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args){

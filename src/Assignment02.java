@@ -1,6 +1,8 @@
+// 제로베이스 백엔드 10기 전현승
+// 과제 2: 캐시백 계산
 import java.util.Scanner;
 
-public class CashBack {
+public class Assignment02 {
 
     public static int back(int money){
         if(money>3000)

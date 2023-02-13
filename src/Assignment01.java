@@ -1,5 +1,6 @@
 // 제로베이스 백엔드 10기 전현승
-public class GuGuDan {
+// 과제 1: 구구단 출력
+public class Assignment01 {
     public static void main(String[] args){
         System.out.println("[구구단 출력]");
         for(int i = 1; i <= 9; i++) {
